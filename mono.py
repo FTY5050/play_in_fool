@@ -47,8 +47,7 @@ while True:
 		
 		all_player = 0
 		for i in Global_Player:
-			#os.system('clear')
-			os.system('cls')
+			os.system('clear')
 			all_player+=1
 			a3 = str(i.Array) 
 			str_1 = a3.replace('[', '')
